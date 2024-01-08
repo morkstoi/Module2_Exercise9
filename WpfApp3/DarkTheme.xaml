@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="background" Color="DarkGray"/>
+    <SolidColorBrush x:Key="fontColor" Color="White"/>
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="{StaticResource background}"/>
+        <Setter Property="Foreground" Value="{StaticResource fontColor}"/>
+
+    </Style>
+    <Style TargetType="ToolBarTray">
+        <Setter Property="Background" Value="{StaticResource background}"/>
+
+    </Style>
+    <Style TargetType="ToolBar">
+        <Setter Property="Background" Value="{StaticResource background}"/>
+    </Style>
+    <Style TargetType="Menu">
+        <Setter Property="Background" Value="{StaticResource background}"/>
+        <Setter Property="Foreground" Value="{StaticResource fontColor}"/>
+    </Style>
+    <Style TargetType="MenuItem" >
+        <Setter Property="Background" Value="{StaticResource background}"/>
+        <Setter Property="Foreground" Value="{StaticResource fontColor}"/>
+    </Style>
+    <Style TargetType="ComboBox"  x:Key="ComboboxStyle">
+        <Setter Property="Background" Value="{StaticResource background}"/>
+        <Setter Property="Foreground" Value="{StaticResource fontColor}"/>
+    </Style>
+    <Style TargetType="ComboBoxItem" >
+        <Setter Property="Background" Value="{StaticResource background}"/>
+        <Setter Property="Foreground" Value="{StaticResource fontColor}"/>
+    </Style>
+</ResourceDictionary>
